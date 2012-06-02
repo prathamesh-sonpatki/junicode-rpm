@@ -20,10 +20,9 @@ BuildRequires:  fontpackages-devel
 BuildRequires:  fontforge
 Requires:       fontpackages-filesystem
 
-#Obsoletes: junicode-fonts < 1.009-3
 
 %description
-A monospace font, designed for code listings and the like, in print.
+The Junicode font is designed to meet the needs of medieval scholars; however, it has a large enough character set to be useful to the general user. It comes in Regular, Italic, Bold and Bold Italic faces. The Regular face has the fullest character set, and is richest in OpenType features. 
 
 %prep
 
