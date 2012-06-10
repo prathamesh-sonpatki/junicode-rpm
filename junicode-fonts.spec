@@ -10,7 +10,7 @@ Group:          User Interface/X
 License:        OFL
 URL:            http://junicode.sourceforge.net/
 Source0:        http://junicode.cvs.sourceforge.net/viewvc/junicode/junicode/src/Junicode-Regular.sfd
-Source1:       http://junicode.cvs.sourceforge.net/viewvc/junicode/junicode/src/Junicode-Bold.sfd
+Source1:        http://junicode.cvs.sourceforge.net/viewvc/junicode/junicode/src/Junicode-Bold.sfd
 Source2:        http://junicode.cvs.sourceforge.net/viewvc/junicode/junicode/src/Junicode-Italic.sfd
 Source3:        %{name}-fontconfig.conf
 BuildRoot:      %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
@@ -22,7 +22,7 @@ Requires:       fontpackages-filesystem
 
 
 %description
-The Junicode font is designed to meet the needs of medieval scholars; however, it has a large enough character set to be useful to the general user. It comes in Regular, Italic, Bold and Bold Italic faces. The Regular face has the fullest character set, and is richest in OpenType features. 
+The Junicode font is designed to meet the needs of medieval scholars. 
 
 %prep
 
